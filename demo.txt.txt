@@ -1,3 +1,10 @@
 A list of my commonly used Git commands
 
 If you are interested in my Git aliases, have a look at my .bash_profile, found here: 
+
+echo "# Bookapp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ruchika-12/Bookapp.git
+git push -u origin master
